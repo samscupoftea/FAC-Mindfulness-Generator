@@ -40,15 +40,7 @@ const quotes = [{
 }, {
     quote: `"In the beginner's mind, there are many possibilities. In the expert's mind, there are few." `,
     writer: `"Shunryu Suzuki"`
-}, {
-    quote: ``,
-    writer: ``
-}, {
-    quote: ``,
-    writer: ``
-}, {
-    quote: ``,
-    writer: ``
+
 },
 ]
 
@@ -57,7 +49,7 @@ let quote = document.querySelector(".quote");
 let writer = document.querySelector(".writer");
 
 btn.addEventListener("click", function () {
-    let random = Math.floor(Math.random() * quote.length);
+    let random = Math.floor(Math.random() * quotes.length);
 
     quote.innerHTML = quotes[random].quote;
     writer.innerHTML = quotes[random].writer;
