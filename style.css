@@ -59,3 +59,34 @@ body {
     color: white;
     line-height: 1.5;
 }
+
+.main-content .writer {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.main-content .button-area {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.button-area .btn button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    font-size: 18px;
+}
+
+.button-area .btn button:active {
+    background-image: linear-gradient(rgba(0, 0, 0, 1.1), rgba(248, 248, 248, 0.1)), url(./Pictures/cc09e02c76ae83535ecf0da3d3258ee6.jpeg);
+}
