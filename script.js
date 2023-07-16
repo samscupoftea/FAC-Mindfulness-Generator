@@ -1,3 +1,4 @@
+// create array for each quote and writer. Can make as many as I want. The more the merrier. 
 const quotes = [{
     quote: `"Mindfulness is the aware, balanced acceptance of the present experience. It isn't more complicated than that. It is opening to or receiving the present moment, pleasant or unpleasant, just as it is, without either clinging to it or rejecting it."`,
     writer: `Joseph Goldstein`
@@ -44,6 +45,7 @@ const quotes = [{
 },
 ]
 
+//Use query selector to target the the button. Then the quote and writer part so that the array text content can replace. 
 let btn = document.querySelector("#Qbtn");
 let quote = document.querySelector(".quote");
 let writer = document.querySelector(".writer");
